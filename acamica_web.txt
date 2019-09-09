@@ -1,0 +1,865 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------
+HTML
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>Esto es un titulo</h1>
+		<h2>Esto es un subtitulo</h2>
+		<h3>Esto es un subsubtitulo</h3>
+		<h4>Esto es un subsubsubtitulo</h4>
+		<h5>Esto es un subsubsubsubtitulo</h5>
+		<h6>Esto es un subsubsubsubsubtitulo</h6>
+		<p>Esto es un párrafo.</p>
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Esto es un título</h1>
+		<h2>Esto es un subtítulo</h2>
+		<p>Esto es un párrafo.</p>
+		<p>Esto es otro párrafo.</p>
+	</body>
+</html>
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>Esto es un titulo</h1>
+		<p>Una <strong>parte de un párrafo</strong> puede ser contenido más fuerte.</p>
+		<p>Otra <em>parte de un párrafo</em> puede ser contenido que deba expresarse con cierto énfasis.</p>
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>A continuación una lista</h1>
+
+		<ul>
+			<li>Aquí un ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+		</ul>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>A continuación una lista</h1>
+
+		<ol>
+			<li>Aquí un ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+			<li>Aquí otro ítem de la lista</li>
+		</ol>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>A continuación un grupo de párrafos</h1>
+
+		<div>
+			<p>Este párrafo y los que siguen hablan del mismo tema.</p>
+			<p>Otros párrafos.</p>
+			<p>Otros párrafos.</p>
+			<p>Otros párrafos.</p>
+			<p>Otros párrafos.</p>
+		</div>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título general</title>
+	</head>
+
+	<body>
+		<h1>¿Cómo hacer links?</h1>
+
+		<p>Este párrafo <a href="http://www.google.com">contiene un link</a> que me lleva a Google.</p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Archivo 01</title>
+	</head>
+
+	<body>
+
+		<h1>Archivo 01</h1>
+		<h2>¿Cómo hacer links?</h2>
+
+		<p>A continuación, un link a un archivo que está en la misma carpeta.</p>
+
+		<p> <a href="archivo_02.html">Archivo 02</a> </p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Archivo 01</title>
+	</head>
+
+	<body>
+
+		<h1>Archivo 01</h1>
+		<h2>¿Cómo hacer links?</h2>
+
+		<p>A continuación, un link a un archivo que está dentro de una carpeta llamada "b", que se encuentra an la misma carpeta que este archivo.</p>
+
+		<p> <a href="b/archivo_02.html">Archivo 02</a> </p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Archivo 02</title>
+	</head>
+
+	<body>
+
+		<h1>Archivo 02</h1>
+		<h2>¿Cómo hacer links?</h2>
+
+		<p>A continuación, un link a un archivo que está una carpeta hacia atrás.</p>
+
+		<p> <a href="../archivo_01.html">Archivo 01</a> </p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Imágenes en HTML</title>
+  </head>
+  <body>
+    <h1>Imágenes en HTML</h1>
+    <p>Cómo incluir una imagen en un archivo HTML.</p>
+
+    <img src="mi_imagen.jpg" alt="Texto alternativo de a mi imagen" width="400" height="300" />
+
+  </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Atributos globales</title>
+	</head>
+
+	<body>
+		<h1>Atributo title</h1>
+
+		<p>Este párrafo <a href="http://www.google.com" title="Ir a Google">contiene un link</a> que me lleva a Google.</p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<p id="lalala" ></p>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Atributos globales</title>
+	</head>
+
+	<body>
+
+		<h1>Atributo class</h1>
+
+		<p>Un párrafo normal.</p>
+		<p class="destacado">Un párrafo destacado.</p>
+		<p>Un párrafo normal.</p>
+		<p class="destacado">Un párrafo destacado.</p>
+		<p>Un párrafo normal.</p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Atributos globales</title>
+	</head>
+
+	<body>
+
+		<h1>Atributo lang</h1>
+
+		<p>Un párrafo.</p>
+
+		<p lang="en">This paragraph is written in English.</p>
+
+	</body>
+
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+CSS
+---------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Aprendiendo CSS</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+  </head>
+  <body>
+    <h1>Aprendiendo CSS</h1>
+    <p>Cómo agregar una hoja de estilos a un archivo HTML.</p>
+  </body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #FF0000;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  color: red;
+  background: black;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  color: red;
+  background: black;
+}
+h2 {
+  font-family: Arial, sans-serif;
+}
+p {
+  font-size: 12px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1, h2 {
+  color: red;
+  background: black;
+}
+h2 strong {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+#botonera li.actual a {
+  font-size: 12px;
+}
+div#principal p.destacado {
+  font-size: 24;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Arial, sans-serif;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+p {
+  font-style: normal;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+h2 {
+  text-align: right;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: justify;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+}
+h2 {
+  text-align: right;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: left;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+a {
+  text-decoration: underline;
+}
+h2 {
+  text-decoration: line-through;
+}
+h3 {
+  text-decoration: none;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ff0000;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 16px;
+  line-height: 20px;
+  text-indent: 20px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  text-transform: lowercase;
+}
+h3 {
+  text-transform: capitalize;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Margin -> Border -> Padding -> Content
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 30px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 50px;
+}
+
+p {
+  padding: 20px 30px 40px 50px;
+}
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+}
+h1 {
+  border-top: 5px solid #ff0000;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+  margin: 10px 20px 0px 7px;
+}
+
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+  margin: 10px 20px 0px 7px;
+}
+h1 {
+  margin: 20px;
+}
+
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+  margin: 10px 20px 0px 7px;
+}
+h1 {
+  margin: 20px;
+}
+h2 {
+  margin: 10px 20px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+}
+h1 {
+  border-top: 5px solid #ff0000;
+}
+
+p {
+  border-top: 5px solid #ff0000;
+  border-right: 5px solid #ff0000;
+  border-bottom: 5px solid #ff0000;
+  border-left: 5px solid #ff0000;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+  margin: 10px 20px 0px 7px;
+}
+h1 {
+  margin: 20px;
+}
+h2 {
+  margin: 10px 20px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  padding: 20px 30px 40px 50px;
+  border: 5px solid #ff0000;
+  margin: 10px 20px 0px 7px;
+}
+h1 {
+  margin: 20px;
+}
+h2 {
+  margin: 10px 20px;
+}
+h3 {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  width: 80px;
+  padding: 10px;
+  height: 50px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+h1 {
+  color: #dd0000;
+  font-size: 24px;
+}
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+HTML5
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+html4 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+html5 <!DOCTYPE html>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+html4 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+html5
+<meta charset="UTF-8">
+<meta charset="UTF-8" />
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+html4 <link rel="stylesheet" type="text/css" href="estilos.css">
+
+html5 <link rel="stylesheet" href="estilos.css">
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+html4 <script type="text/javascript" src="comportamiento.js"></script>
+
+html5 <script src="comportamiento.js"></script>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<header>
+  <h1>Título</h1>
+  <h1>Subtítulo</h1>
+</header>
+
+<div id="header">
+  <h1>Título</h1>
+  <h1>Subtítulo</h1>
+</div>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<ul id="navigation">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="servicios.html">Servicios</a></li>
+  <li><a href="productos.html">Productos</a></li>
+  <li><a href="contacto">Contacto</a></li>
+</ul>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="servicios.html">Servicios</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<section>
+  <p>Ésta es una sección de la página.</p>
+  <p>Otro párrafo, dentro de la misma sección.</p>
+</section>
+
+
+<h1>Título principal</h1>
+<section>
+  <h1>Título de la section</h1>
+  <p>Ésta es una sección de la página.</p>
+  <p>Otro párrafo, dentro de la misma sección.</p>
+</section>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+<h1>Título principal</h1>
+
+<section>
+  <h1>Título de la section</h1>
+  <p>Ésta es una sección de la página.</p>
+  <p>Otro párrafo, dentro de la misma sección.</p>
+</section>
+
+<aside>
+  <h1>Título del aside</h1>
+  <p>Información secundaria.</p>
+</aside>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+{nombreFruta: 'manzana', peso: 3.2}
+var cajonDeFruta = {nombreFruta: 'manzana', peso: 3.2}
+var unaEmpanada = {nombreSabor: 'jamon y queso', diametro: 5, frita: false};
+
+var numeros = [1,4, 5];
+var diccionario = [ "abecedario", "ballena", "barba", "casa", "colibrí", "zulú"];
+var empanadas = [
+ 	{nombreSabor: 'jamon y queso', diametro: 5, frita: false},
+	{nombreSabor: 'jamon y queso', diametro: 5, frita: false},
+	{nombreSabor: 'queso y cebolla', diametro: 4, frita: true},
+	{nombreSabor: 'carne suave', diametro: 5.2, frita: true}
+];
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+var gustos_de_empanada = new Array("carne", "pollo", "verdura");
+var gustos_de_empanada = ["carne", "pollo", "verdura"];
+
+
+// write
+var sabores_de_empanada = ["carne", "pollo", "verdura"];
+
+sabores_de_empanada[3] = "cebolla";
+
+console.log(sabores_de_empanada);
+
+
+// read
+var sabores_de_empanada = ["carne", "pollo", "verdura", "cebolla"];
+
+// Guardo el segundo valor del array
+var sabor_elegido = sabores_de_empanada[1];
+
+console.log(sabor_elegido);
+
+
+var nombres = ["Ángel", "Beto", "Carlos", "Daniel", "Ernesto", "Fernando", "Gustavo", "Heriberto", "Ignacio", "Juan"];
+
+// Sobreescribir el valor de la posición 3
+nombres[3] = "María";
+
+console.log(nombres);
+
+// push 
+var nombres = ["Ángel", "Beto", "Carlos", "Daniel", "Ernesto", "Fernando", "Gustavo", "Heriberto", "Ignacio", "Juan"];
+
+nombres.push("María");
+
+console.log(nombres);
+
+// pop
+var nombres = ["Ángel", "Beto", "Carlos", "Daniel", "Ernesto", "Fernando", "Gustavo", "Heriberto", "Ignacio", "Juan"];
+
+var ultimo_nombre = nombres.pop();
+
+console.log(nombres);
+console.log(ultimo_nombre);
+
+// length
+
+var sabores_de_empanada = ["carne", "pollo", "verdura"];
+
+var largo_del_array = sabores_de_empanada.length;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
